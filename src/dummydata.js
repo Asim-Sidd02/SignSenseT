@@ -1,21 +1,21 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/?size=80&id=7UMLieGI3EQ5&format=png",
+    title: "Real Time Translation",
+    desc: "The project translates sign language to spoken language in real-time, enhancing communication accessibility for the deaf and hard of hearing",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/?size=48&id=31016&format=png",
+    title: "Multilingual Translation",
+    desc: "Sign Sense breaks language barriers by providing real-time translation of signs into multiple languages.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://img.icons8.com/?size=80&id=SHcD2ErP5TPu&format=png",
+    title: "Two Way Translation",
+    desc: "SignSense offers bidirectional translation, seamlessly converting sign language to text and vice versa, fostering inclusive communication for diverse interactions.",
   },
 ]
 export const awrapper = [
@@ -390,25 +390,6 @@ export const blog = [
   },
 ]
 export const testimonal = [
-  {
-    id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
-  },
-  {
-    id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
-  },
-  {
-    id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
-  },
+ 
+ 
 ]

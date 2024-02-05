@@ -8,14 +8,14 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <Heading subtitle='WELCOME TO SignSense' title='Real-Time Sign Language Translation' />
+            <p>SignSense translates sign language to spoken language in real-time, enhancing communication accessibility for the deaf and hard of hearing.</p>
             <div className='button'>
               <button className='primary-btn'>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+                SIGN TO TEXT <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
+                TEXT TO SIGN <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>
