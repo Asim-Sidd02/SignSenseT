@@ -1,27 +1,46 @@
 import React from "react"
-import Heading from "../../common/heading/Heading"
-import "./Hero.css"
+
+
+
+
 
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <div className='row'>
-            <Heading subtitle='WELCOME TO SignSense' title='Real-Time Sign Language Translation' />
-            <p>SignSense translates sign language to spoken language in real-time, enhancing communication accessibility for the deaf and hard of hearing.</p>
-            <div className='button'>
-              <button className='primary-btn'>
-                SIGN TO TEXT <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-              <button>
-                TEXT TO SIGN <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div className='margin'></div>
+     <section className="bg-gray-900 text-white">
+  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+    <div className="mx-auto max-w-3xl text-center">
+      <h1
+        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+      >
+        Sign Sense
+
+        <span className="sm:block"> Your Bridge To The World of Silent Communication. </span>
+      </h1>
+
+      <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+      SignSense translates sign language to spoken language in real-time, enhancing communication accessibility for the deaf and hard of hearing.
+      </p>
+
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          href="/get-started"
+        >
+          Sign To Text
+        </a>
+
+        <a
+          className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+          href="/about"
+        >
+          Text To Sign
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
     </>
   )
 }
